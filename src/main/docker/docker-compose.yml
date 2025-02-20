@@ -13,6 +13,9 @@ services:
       - app-network
   delay-server:
     container_name: my-site
+    build:
+      context: .
+      dockerfile: Dockerfile
     image: my-site
     ports:
       - "8089:8089"
