@@ -14,8 +14,8 @@ services:
   delay-server:
     container_name: my-site
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: /volume2/homes/2410632887/my-site
+      dockerfile: src/main/docker/Dockerfile
     image: my-site
     ports:
       - "8089:8089"
