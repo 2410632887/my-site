@@ -7,6 +7,8 @@ services:
       MYSQL_ROOT_PASSWORD: Ljfjiayou553592
     ports:
       - "3306:3306"
+    volumes:
+      - /volume2/homes/2410632887/mysql:/var/lib/mysql
     networks:
       - app-network
   delay-server:
