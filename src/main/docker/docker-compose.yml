@@ -15,7 +15,7 @@ services:
     container_name: my-site
     build:
       context: /volume2/homes/2410632887/my-site
-      dockerfile: Dockerfile
+      dockerfile: src/main/docker/Dockerfile
     image: my-site
     ports:
       - "8089:8089"
