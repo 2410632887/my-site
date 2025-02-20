@@ -1,9 +1,17 @@
 version: '3'
 
 services:
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: Ljfjiayou553592
+    ports:
+      - "3306:3306"
+    networks:
+      - app-network
   delay-server:
     container_name: my-site
-    image: winterchen/my-site
+    image: my-site
     ports:
       - "8089:8089"
     volumes:
@@ -11,7 +19,7 @@ services:
     environment:
       SPRING_DATASOURCE_DRUID_URL: jdbc:mysql://192.168.2.114:3306/lu_tale?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
       SPRING_DATASOURCE_DRUID_USERNAME: root
-      SPRING_DATASOURCE_DRUID_PASSWORD: root
+      SPRING_DATASOURCE_DRUID_PASSWORD: Ljfjiayou553592
       QINIU_ACCESSKEY: ""
       QINIU_SERECTKEY: ""
       QINIU_BUCKET: ""
