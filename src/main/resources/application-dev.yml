@@ -69,8 +69,8 @@ swagger:
   show: true
 
 qiniu:
-  accesskey: ""
-  serectkey: ""
-  bucket: ""
+  accesskey: "lTIKOSSiWMHbhlJAtEu-fm0ii6-fJ8ogMowOruWl"
+  serectkey: "wVul04vV2GT2OO0-LHU7Eq6LtM_xp749pmsN25Ky"
+  bucket: "2410632887"
   cdn:
-    url: ""
+    url: "ss1itysap.hd-bkt.clouddn.com"

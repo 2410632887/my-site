@@ -27,10 +27,10 @@ services:
       SPRING_DATASOURCE_DRUID_URL: jdbc:mysql://mysql:3307/lu_tale?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
       SPRING_DATASOURCE_DRUID_USERNAME: root
       SPRING_DATASOURCE_DRUID_PASSWORD: Ljfjiayou553592
-      QINIU_ACCESSKEY: ""
-      QINIU_SERECTKEY: ""
-      QINIU_BUCKET: ""
-      QINIU_CDN_URL: ""
+      QINIU_ACCESSKEY: "lTIKOSSiWMHbhlJAtEu-fm0ii6-fJ8ogMowOruWl"
+      QINIU_SERECTKEY: "wVul04vV2GT2OO0-LHU7Eq6LtM_xp749pmsN25Ky"
+      QINIU_BUCKET: "2410632887"
+      QINIU_CDN_URL: "ss1itysap.hd-bkt.clouddn.com"
 networks:
   app-network:
     driver: bridge
